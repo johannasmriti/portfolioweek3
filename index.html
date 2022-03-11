@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Johanna's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="#9ED7D1"> 
+    <!--Navbar-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a><br>
+        <a href="#skills">Skills</a><br>
+        <a href="#education">Education</a><br>
+        <a href="#projects">Projects</a><br>
+        <a href="#experience">Experience</a><br>
+     </div>
+     <div id="main">
+       <span style="cursor:pointer;font-size:40px;float:left;" onclick="openNav()">&#9776;</span>
+       <h1 style="font-family:'Sacramento', cursive;text-align:center;font-size:270%;">Johanna's Portfolio</h1>
+     </div>
+    <!--Home-->
+    <svg width="1200" height="500" class="home">
+        <text stroke-width="2px" dy=".3em" x="170" y="95" style="font-weight: bold; ">Hello There,</text>
+        <text x="290" y="155">I'm Johanna! Lorem Ipsum is simply dummy text of the printing and typesetting </text>
+        <text x="200" y="190">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an </text>
+        <text x="200" y="235">unknown printer took a galley of type and scrambled it to make a type specimen book. It has</text>
+        <text x="200" y="280">survived not only five centuries, but also the leap into electronic typesetting, remaining essentially </text>
+        <text x="200" y="325">unchanged. It was popularised in the 1960s with the release of Letraset sheets containing </text>
+        <text x="200" y="370">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus</text>
+        <text x="200" y="415">PageMaker including versions of Lorem Ipsum.</text>
+        <rect x="150" y="50" rx="20" ry="20" width="1050" height="400" style="stroke:white;stroke-width:5;opacity:0.1" />
+    </svg><br><br>
+    <!--Skills<div class="parallax"></div>-->
+    <img class="skillimage" src="https://media.istockphoto.com/photos/abstract-colorful-background-wallpaper-mixing-acrylic-paints-modern-picture-id1160364361?b=1&k=20&m=1160364361&s=170667a&w=0&h=GMC31i9qNGsXApqSTQVVwp824YDt84CEFvydinXK1Ig=" style="border-radius: 70%;width:500px;height:auto;float:left;padding:80px;padding-right: 0px;">
+    <div id="skills"><br><br>
+        <h1 style="font-size:270%;font-weight: bold; ">Skills</h1>
+        <p>1. C++</p>
+        <p>2. Java</p>
+        <p>3. Python</p>
+        <p>4. Competitive Programming</p>
+        <p>5. Database Management</p>
+        <p>6. Open Source Development</p>
+        <p>7. Software Development</p><br>
+        <br>
+    </div>
+    <!--Education-->
+    <div id="education"><br>
+        <h1 style="font-size:xx-large;text-align: center;font-family:'Sacramento',  cursive;font-size:270%; color:black;font-weight: bold; ">Education</h1>
+        <table style="font-family:'Courier New', monospace;text-align:center;width:70%;margin-left:200px">
+            <tr style="font-size:30px;">
+              <td><b>Course</b></td>
+              <td><b>Institution</b></td>
+              <td><b>Mark/CGPA</b></td>
+            </tr>
+            <tr style="font-size:20px;">
+                <td>B.E(CSE)</td>
+                <td>PSG College of Technology</td>
+                <td>8.69*</td>
+            </tr>
+            <tr style="font-size:20px;">
+                <td>XII</td>
+                <td>Woodside Schoool</td>
+                <td>89%</td>
+            </tr>
+            <tr style="font-size:20px;">
+                <td>X</td>
+                <td>Rosary Schoool</td>
+                <td>96%</td>
+            </tr>
+          </table>
+    </div>
+    <!--Projects-->
+    <div id="projects"><br>     
+        <h1 style="text-align: center;font-family:'Sacramento',  cursive;font-size:270%; color:black;font-weight: bold; ">Projects</h1> 
+        <iframe src="https://i.pinimg.com/originals/20/73/05/20730582e7d20362bc6512fb9ec28417.png" style="padding-left:70px;border:none;width:400px ;height:400px;" title="description"></iframe>
+        <iframe src="https://w0.peakpx.com/wallpaper/131/516/HD-wallpaper-keyboard-80s-929-cool-minimal-minimalist-music-retro-simple.jpg" style="border:none;float:none; width:400px ;height:400px;" title="description"></iframe>
+        <iframe src="https://cdn.wallpapersafari.com/33/65/ZrUuMF.jpg" style="border:none;float:none; width:400px ;height:400px;" title="description"></iframe>
+    </div>
+    <!--Experience-->
+    <div id="experience"><br>
+        <h1 style="text-align: center;font-family:'Sacramento',  cursive;font-size:270%; color:black;font-weight: bold; ">Experience</h1>
+        <p style="font-weight: bold; ">1. Samsung India</p>
+        <p>(June 2021 - December 2021)</p>
+        <p>Project Intern</p>
+        <p>Worked on an RL model that predicts optimised adaptive bitrate</p><br>
+        <p style="font-weight: bold; ">2. Tech4Good Labs</p>
+        <p>(June 2020 - August 2020)</p>
+        <p>Web Developer</p>
+        <p>Built and deployed websites for 2 orphanages.</p>
+        <br>
+    </div>
+    <!--Navbar-->
+    <div id="navbar" style="background-color: #F5F5DC; padding:2px">
+        <h2 style="text-align: center;font-family:'Sacramento',  cursive;font-size:170%; color:black;">@JohannaSmriti</h2>
+    </div>
+    <!--script-->
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+</body>
+</html>
